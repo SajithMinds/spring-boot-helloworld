@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 public class SpringBootHelloworldApplication {
 
-	@GetMapping
+	@GetMapping("/message")
 	public String home() {
 		return "Weclome to Hello world";
 	}
