@@ -10,7 +10,7 @@ public class SpringBootHelloworldApplication {
 
 	@GetMapping
 	public String home() {
-		return "Hello World!";
+		return "Weclome to Hello world";
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(SpringBootHelloworldApplication.class, args);
